@@ -10,6 +10,7 @@ const Shop = () => {
     const [products, setProducts] = useState(first10);
     const [cart, setCart] = useState([]);
 
+
     const handleAddProduct = (product) => {
         const newCart = [...cart, product];
         setCart(newCart);
@@ -33,3 +34,4 @@ const Shop = () => {
 };
 
 export default Shop;
+
